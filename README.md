@@ -55,7 +55,8 @@ You need the following editor to develop this solution:
 ## Notes 
 - This is my first report where I am using Integrity Beans to create an administrative report. The interesting thing is that this just works (almost). The beauty is that the performance is amazingly fast, because the Beans are already loaded into the memory (I am talking about the Beans that are usually only used by triggers).
 - Unfortunately, I had to add another local VBS script to catch the current user, haven't found a better way to do this: A report don't know which user has executed it ;( 
-- If you drop the project parameter completely, then you will see all projects where the user has access to, and which role(s) he has in that projects 
+- If you drop the project parameter completely from the jsp link, then you will see all projects where the user has access to, and which role(s) he has in that projects 
+- You can sort the output by clicking at the green table headers (thanks to sorttable.js)
 
 ## Open Issues
 The following issues are known:
