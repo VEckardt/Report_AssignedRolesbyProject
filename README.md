@@ -29,7 +29,7 @@ Description: Opens a Report to show the Assigned Roles by Project for the curren
 public_html\reports\AssignedRolesbyProject.jsp  (new)
 public_html\reports\css\integritydocs.css  (new)
 public_html\reports\css\sorttable.js  (new)
-reports\images\ptc_integrity_logo.png  (new)
+public_html\reports\images\ptc_integrity_logo.png  (new)
 reports\recipes\AssignedRolesbyProject.rpt (new) 
 ```
 - create a new report with the following data:
