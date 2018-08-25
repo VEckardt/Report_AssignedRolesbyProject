@@ -59,8 +59,10 @@ You need the following editor to develop this solution:
 - You can sort the output by clicking at the green table headers (thanks to sorttable.js)
 - I can't get the description for the groups, because the IntegrityBean don't has that information ;( 
 
+
 ## Open Issues
 The following issues are known:
 - The Group Lists are not sorted yet
 - A normal user can change the parameters, and can view any users details (this might be solved by using https)
 - In Firefox and Chrome the layout looks perfect, in IE it looks a bit "different" 
+- If you run the report as you usually would do (Item > Run Report), you will get a different user's details, but not from the current one. Still trying to find out which user this is then. It's not the server API user ;(
