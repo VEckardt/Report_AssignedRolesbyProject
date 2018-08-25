@@ -12,6 +12,9 @@ The following Use Cases are covered
 # How to Install
 Perform the following steps to install this report:
 - copy the vbs Script into your local IntegrityClient/bin directory
+```
+bin\runReport.vbs
+```
 - create a custom menu according to the following definition
 
 ```
@@ -21,9 +24,20 @@ Parameters:  runReport.vbs  "Assigned Roles by Project"
 Description: Opens a Report to show the Assigned Roles by Project for the current user
 ```
 - copy the server files into the corresponding directories
--- 
-- create a report with the name "Assigned Roles by Project" and select the matching rpt file
--- Select the "Item Based Report Selection" as Query 
+
+```
+public_html\reports\AssignedRolesbyProject.jsp  (new)
+public_html\reports\css\integritydocs.css  (new)
+public_html\reports\css\sorttable.js  (new)
+reports\images\ptc_integrity_logo.png  (new)
+reports\recipes\AssignedRolesbyProject.rpt (new) 
+```
+- create a new report with the following data:
+```
+Name:       Assigned Roles by Project
+Template:   the provided rpt file: AssignedRolesbyProject.rpt
+Query:      Item Based Report Selection
+```
 
 ## How To Test
 - Select any item or open any item of your choice
