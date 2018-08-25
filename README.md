@@ -57,6 +57,7 @@ You need the following editor to develop this solution:
 - Unfortunately, I had to add another local VBS script to catch the current user, haven't found a better way to do this: A report don't know which user has executed it ;( 
 - If you drop the project parameter completely from the jsp link, then you will see all projects where the user has access to, and which role(s) he has in that projects 
 - You can sort the output by clicking at the green table headers (thanks to sorttable.js)
+- I can't get the description for the groups, because the IntegrityBean don't has that information ;( 
 
 ## Open Issues
 The following issues are known:
