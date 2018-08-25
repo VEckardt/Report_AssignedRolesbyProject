@@ -34,8 +34,13 @@
     <%
       Connection conn = null;
       CISignature sig = null;
+      //
+      // MUST BE UPDATED TO REFLECT A VALID SYSTEM USER (use 'im users --fields=id,name' to get a proper id)
+      // 
+      int defaultUserID = 1;
+      //
       // ScriptServerBean(int userId, Connection c, CISignature sig)
-      ScriptServerBean ssb = new ScriptServerBean(1, conn, sig);
+      ScriptServerBean ssb = new ScriptServerBean(defaultUserID, conn, sig);
       // out.println("<br>getCurrentUser: " + ssb.getCurrentUser());
       String currUser = ssb.getCurrentUser();
       if (request.getParameter("username") != null) {
