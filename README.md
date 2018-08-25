@@ -37,8 +37,12 @@ You need the following editor to develop this solution:
 - Any Text Editor
 - I am using always NetBeans
 
+## Notes 
+This is my first report where I am using Integrity Beans to create an administrative report. The interesting thing is that this just works (almost). The beauty is the performance is amazingly fast, because the Beans are already loaded into the memory (I am talking about the Beans that are usually only used by triggers).
+Unfortunately, I had to add another local VSB script to catch the current user, haven't found a better way to do this: A report dont know which user has executed it ;( 
+
 ## Open Issues
 The following issues are known:
 - The Group Lists are not sorted yet
-- A normal user can change the parameters and can view any users details (this might be solved by using https)
+- A normal user can change the parameters, and can view any users details (this might be solved by using https)
 - In Firefox and Chrome the layout looks perfect, in IE it looks a bit "different" 
