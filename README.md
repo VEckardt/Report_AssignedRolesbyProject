@@ -24,7 +24,8 @@ Description: Opens a Report to show the Assigned Roles by Project for the curren
 - create a report with the name "Assigned Roles by Project" and select the matching rpt file
 
 ## How To Test
-- 
+- Select any item or open any item of your choice
+- Start the report by choosing (M) Custom > Assigned Roles by Project
 
 ## Programming Language
 - Integrity Report
