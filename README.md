@@ -21,7 +21,9 @@ Parameters:  runReport.vbs  "Assigned Roles by Project"
 Description: Opens a Report to show the Assigned Roles by Project for the current user
 ```
 - copy the server files into the corresponding directories
+-- 
 - create a report with the name "Assigned Roles by Project" and select the matching rpt file
+-- Select the "Item Based Report Selection" as Query 
 
 ## How To Test
 - Select any item or open any item of your choice
