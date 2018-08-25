@@ -58,6 +58,7 @@ You need the following editor to develop this solution:
 - If you drop the project parameter completely from the jsp link, then you will see all projects where the user has access to, and which role(s) he has in that projects 
 - You can sort the output by clicking at the green table headers (thanks to sorttable.js)
 - I can't get the description for the groups, because the IntegrityBean don't has that information ;( 
+- In the JSP script a default User ID must be set. I was hoping to find a way to get the User ID dynamically, but I had no success. Use the command "im users --fields=id,name" to get a valid ID from a system user who can view group details. This can be a user who is often also an integration account with admin read rights.
 
 
 ## Open Issues
@@ -65,4 +66,3 @@ The following issues are known:
 - The Group Lists are not sorted yet
 - A normal user can change the parameters, and can view any users details (this might be solved by using https)
 - In Firefox and Chrome the layout looks perfect, in IE it looks a bit "different" 
-- If you run the report as you usually would do (Item > Run Report), you will get a different user's details, but not from the current one. Still trying to find out which user this is then. It's not the server API user ;(
