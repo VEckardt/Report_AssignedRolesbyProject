@@ -10,16 +10,34 @@ The following Use Cases are covered
 ![ReportAssignedRolesbyProject](doc/ReportAssignedRolesbyProject.png)
 
 # How to Install
-Perform the following steps to install this report
+Perform the following steps to install this report:
+- copy the vbs Script into your local IntegrityClient/bin directory
+- create a custom menu according to the following definition
+
+```
+Name:        Assigned Roles by Project
+Program:     wscript
+Parameters:  runReport.vbs  "Assigned Roles by Project"
+Description: Opens a Report to show the Assigned Roles by Project for the current user
+```
+- copy the server files into the corresponding directories
+- create a report with the name "Assigned Roles by Project" and select the matching rpt file
+
+## How To Test
+- 
 
 ## Programming Language
-Integrity Report
-Integrity Beans
-JSP with embedded Java
+- Integrity Report
+- Integrity Beans
+- JSP with embedded Java
 
 ## Programming Environment 
-Any Text Editor
-I am using always NetBeans
+You need the following editor to develop this solution:
+- Any Text Editor
+- I am using always NetBeans
 
 ## Open Issues
-The Group Lists are not sorted yet
+The following issues are known:
+- The Group Lists are not sorted yet
+- A normal user can change the parameters and can view any users details (this might be solved by using https)
+- In Firefox and Chrome the layout looks perfect, in IE it looks a bit "different" 
