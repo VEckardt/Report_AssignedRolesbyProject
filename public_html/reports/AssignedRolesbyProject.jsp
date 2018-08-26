@@ -116,17 +116,11 @@
       <tbody>
         <%
             for (String group: userGroups) {     
-              // ScriptDynamicGroupBean dgb = ssb.getDynamicGroupBean(group); 
-              // Boolean isMember = dgb.isUserMemberOf(currUser, project);
-              // if (isMember) {
-                // out.println(project);
-                // out.println(group);
                 %>
                 <tr>
                   <td><big><%=group%></big></td>
                 </tr>
                 <%
-              // }
             }
             %>
                 <tfoot><tr>
