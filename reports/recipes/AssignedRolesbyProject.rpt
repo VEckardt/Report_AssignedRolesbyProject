@@ -1,6 +1,6 @@
 <%description 
-    <b>Data:</b> </b>Assigned Roles by Project<br>
-    <b>Notes:</b> </b>This report displays a listing of Roles (Dynamic Groups) by Project, where the current user is assigned to<br>
+    <b>Data:</b>Assigned Roles by Project<br>
+    <b>Notes:</b>This report displays a listing of Roles (Dynamic Groups) by Project, where the current user is assigned to<br>
 	Single selection recommended.
 %>
 <html lang="en-US">
