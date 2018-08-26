@@ -78,7 +78,6 @@
 //           }
 
     %>
-    <table>
     <table class='sortable' align="center">
       <thead><tr><th class='heading1'>Project</th><th class='heading1'>Role Assignments (Dynamic Groups)</th></tr></thead>
       <tbody>
