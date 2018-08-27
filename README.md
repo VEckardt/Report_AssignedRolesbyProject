@@ -59,6 +59,7 @@ You need the following editor to develop this solution:
 - You can sort the output by clicking at the green table headers (thanks to sorttable.js)
 - I can't get the description for the groups, because the IntegrityBean don't has that information ;( 
 - In the JSP script a default User ID must be set. I was hoping to find a way to get the User ID dynamically, but I had no success. Use the command "im users --fields=id,name" to get a valid ID from a system user who can view group details. This can be a user who is often also an integration account with admin read rights.
+- If you are experiencing any issue, then also inspect the Server.Log 
 
 
 ## Open Issues
