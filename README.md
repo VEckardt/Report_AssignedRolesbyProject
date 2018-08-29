@@ -39,6 +39,9 @@ Template:   the provided rpt file: AssignedRolesbyProject.rpt
 Query:      Item Based Report Selection
 ```
 
+- A default User ID must be set in the JSP script. I was hoping to find a way to get the User ID dynamically, but I had no success. Use the command "im users --fields=id,name" to get a valid ID from a system user who can view group details. This can be a user who is often also an integration account with admin read rights.
+
+
 ## How To Test
 - Select any item or open any item of your choice
 - Start the report by choosing (M) Custom > Assigned Roles by Project
@@ -58,7 +61,6 @@ You need the following editor to develop this solution:
 - If you drop the project parameter completely from the jsp link, then you will see all projects where the user has any dynamic group assigned to, and which role(s) he has in that projects 
 - You can sort the output by clicking at the green table headers (thanks to sorttable.js)
 - I can't get the description for the groups, because the IntegrityBean don't has that information ;( 
-- A default User ID must be set in the JSP script. I was hoping to find a way to get the User ID dynamically, but I had no success. Use the command "im users --fields=id,name" to get a valid ID from a system user who can view group details. This can be a user who is often also an integration account with admin read rights.
 - If you are experiencing any issue, then also inspect the Server.Log 
 
 
